@@ -13,12 +13,7 @@ npm run preview    # preview the production build
 
 ## 🔑 Login Credentials
 
-| Username    | Password   | Role       |
-|-------------|------------|------------|
-| `admin`     | `admin123` | Admin      |
-| `reception` | `recep123` | Reception  |
-
-Auth is fake (localStorage) with protected `/admin/*` routes.
+Auth is fake (localStorage) with protected `/admin/*` routes. Credentials are configured in the application context.
 
 ## 🌐 Routes
 

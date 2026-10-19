@@ -20,11 +20,10 @@ export default function Login() {
         <h1 className="text-3xl font-black">HIT FIT <span className="text-accent">GYM</span></h1>
         <p className="text-muted text-sm mt-1">Admin sign in</p>
         <div className="mt-6 space-y-4">
-          <input value={u} onChange={(e) => setU(e.target.value)} placeholder="Username (admin / reception)" className="w-full px-4 py-3 rounded-xl bg-panel2 border border-line focus:border-accent outline-none" />
+          <input value={u} onChange={(e) => setU(e.target.value)} placeholder="Username" className="w-full px-4 py-3 rounded-xl bg-panel2 border border-line focus:border-accent outline-none" />
           <input value={p} onChange={(e) => setP(e.target.value)} type="password" placeholder="Password" className="w-full px-4 py-3 rounded-xl bg-panel2 border border-line focus:border-accent outline-none" />
           <button className="w-full py-3 rounded-xl bg-accent text-white font-bold hover:brightness-110 transition">Sign In</button>
         </div>
-        <p className="text-xs text-muted mt-4">Demo: <b>admin / admin123</b> · <b>reception / recep123</b></p>
       </form>
     </div>
   );
