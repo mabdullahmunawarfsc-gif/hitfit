@@ -48,8 +48,8 @@ export function GymProvider({ children }) {
 
   const login = (username, password) => {
     const users = [
-      { username: 'admin', password: 'Munawar', role: 'Admin' },
-      { username: 'reception', password: 'Abdullah', role: 'Reception' },
+      { username: 'admin', password: 'demo123', role: 'Admin' },
+      { username: 'reception', password: 'demo456', role: 'Reception' },
     ];
     const u = users.find((x) => x.username === username && x.password === password);
     if (u) { setUser({ username: u.username, role: u.role }); toast.success(`Welcome, ${u.role}!`); return true; }
